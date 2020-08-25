@@ -1,0 +1,3 @@
+嵌入式控制流水灯，elf文件在虚拟机的soc里面 用命令
+riscv64-unknown-elf-gdb unicore1.elf -ex "set remotetimeout 240" -ex "target extended-remote localhost:3333" -ex "load"
+将其通过jtag烧写进FPGA 
